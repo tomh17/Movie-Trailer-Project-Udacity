@@ -2,7 +2,7 @@
 
 This project allows the user to create their very own website that contains information about their favorite films. The project creates 
 a simple webpage that displays the name, poster image, and a short trailer from each movie (the trailer plays when a movie poster is 
-clicked)that the user specifies. 
+clicked) that the user specifies. 
 
 # Installation Instructions
 
