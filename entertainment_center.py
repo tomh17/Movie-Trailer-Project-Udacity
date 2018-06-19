@@ -1,5 +1,5 @@
 import fresh_tomatoes
-import media   #importing from other file in same folder (Movie Trailer Project)
+import media   #importing media.py from file in the same folder (Movie Trailer Project)
 
 #the next six variables are instances of the class "Movie" from media.py
 #each of which represent the title, storyline, url for their poster image
@@ -41,7 +41,7 @@ fargo = media.Movie("Fargo",
 
                     
 
+movies = [toy_story, avatar, burn_after_reading, o_brother, shaun_of_the_dead, fargo] #"movies" is a variable that stores each instance of the class "Movie"
+fresh_tomatoes.open_movies_page(movies) #this code calls fresh_tomatoes.py and runs through each instance of class "Movie" that is listed above. It fills
+                                        #the information into the html document, creatiing the movie trailer website. 
 
-movies = [toy_story, avatar, burn_after_reading, o_brother, shaun_of_the_dead, fargo]
-fresh_tomatoes.open_movies_page(movies)
-print(media.Movie.__name__)
